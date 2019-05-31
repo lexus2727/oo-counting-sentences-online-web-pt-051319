@@ -16,6 +16,7 @@ self.end_with?("!")
   end
 
   def count_sentences
-   self.split(/[?!.]\s+[A-Z]/).length
+   sentence_array = self.split(/[?!.]\s+[A-Z]/).length
+   return sentence_array.count
   end
 end
