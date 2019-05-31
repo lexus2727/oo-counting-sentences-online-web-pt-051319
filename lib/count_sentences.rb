@@ -16,8 +16,6 @@ self.end_with?("!")
   end
 
   def count_sentences
-    new
- self.split
-array.count
+   self.squeeze()
   end
 end
